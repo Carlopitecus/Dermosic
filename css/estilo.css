@@ -1,0 +1,210 @@
+body{
+    background-color: #FED2E1
+}
+.nav{
+    background-color: #FED2E1;
+}
+.header__logo--dimension{
+    width: 60%;
+}
+.header__contenedorlogo--aspecto{
+   width: 50%;
+}
+.nav__links--fontsize{
+    font-size: large;
+}
+/* Info Doctora */
+.header__info--aspecto{
+    padding: 5px;
+    text-align: center;
+    color: white;
+    display: flex;   
+    background-color: #D83D8B;
+}
+.header__contenedorfotodoc--dimension{
+    width: 25%;
+}
+.header__info__imagen--aspecto{
+    float: left;
+    width: 100%;
+    border-radius: 100%;
+}
+.header__contenedorinfoderm--aspecto{
+    padding: 10px;
+}
+.header__info_Derm--aspecto{
+   margin: auto;
+   font-size: xx-large;
+   text-decoration: underline;
+}
+.header__contenedorcontactos--aspecto{
+    text-align: center;
+    background-color: #D83D8B;
+}
+/* redes sociales */
+.redes__contenedor--aspecto{
+    padding: 5px;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    text-align: center;   
+    background-color: #D83D8B;
+}
+.redes__maps--dimension{
+    width: 50px;
+}
+.redes--dimension{
+    width: 50px;
+}
+/* main */
+.main{
+    background-color: #FED2E1;
+}
+.h1{
+    padding: 5px;
+    text-decoration: underline;
+    text-align: center;
+    font-size: x-large;
+}
+.main__aviso--aspecto{
+    text-align: center;
+    padding: 20px;
+    font-size: larger;
+}
+.main__contenedorboton--aspecto{
+    margin: 5px;
+    text-align: center;
+    color: white;
+}
+.main__boton--aspecto{
+    margin: 3px;
+    padding: 5px;
+    border-radius: 10%;
+    border: solid 1px black;
+    color: white;
+    background-color: #D83D8B;
+}
+.main__contenedorcorona--aspecto{
+    text-align: center;
+}
+.main__corona--aspecto{
+    width: 100%;
+}
+.main__foto1--aspecto{
+    width: 100%;
+}
+.main__contenedorfotos--aspecto{
+    display: flex;
+}
+.main__fotos--dimension{
+    width: 90%;
+}
+/* footer */
+.footer__contacto--aspecto{
+    font-weight: bold;
+}
+.footer__tituloredes--aspecto{
+    text-decoration: underline;
+    font-weight: bold;
+}
+/* .footer__primeracolumna--aspecto{
+    width: 50%;
+} */
+
+.footer__fonos--aspecto{
+    width: 80%;
+}
+.footer__fono--ubicacion{
+    margin-left: 60px;
+}
+.footer__columna--dimension{
+    margin: 10px;
+} 
+.footer--aspecto{
+    /* border: solid 1px #D83D8B; */
+    text-align: center;
+    background-color: #D83D8B;
+}
+/* pagina video */
+.main--aspecto{
+    padding: 5px;
+    background-color: #FED2E1;
+}
+.main__contenedorvideo--centrado{
+    margin: auto;
+    text-align: center;
+}
+.main__video--aspecto{
+    width: 320;
+    height: 200 ;
+}
+.main__contenedorlogozoom--center{
+    text-align: center;
+}
+.main__logozoom--dimension{
+    width: 70%;
+}
+/* media query */
+@media only screen and (min-width: 411px){
+    .main__corona--aspecto{
+        padding: 20px;
+        text-align: center;
+        width: 70%;
+    }
+    .main__video--aspecto{
+        width: 400;
+        height: 350 ;
+    }
+}
+
+@media only screen and (min-width: 768px){    
+    /* info doctora */
+    .header__info__imagen--aspecto{
+        float: left;
+        width: 150px;
+        border-radius: 100%;
+    }
+    .header__info_Derm--aspecto{
+        font-size: 4em;
+        }
+        .header__nombredoctora--dimension{    
+            font-size: xx-large;
+        }    
+/* video */
+    .main__video--aspecto{
+        width: 560px;
+        height: 315px;
+    }    
+    .main__aviso--aspecto{
+        margin: auto;
+        width: 70%;
+        text-align: center;
+        padding: 20px;
+        font-size: larger;    
+    }
+    .main__contenedorlogozoom--center{
+        width: 60%;
+        margin: auto;    
+    }
+    .main__contenedorvideo--centrado{
+        height: 300px;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .nav__links--fontsize{
+        font-size: x-large;
+    }   
+    .main__aviso--aspecto{
+        margin: auto;
+        width: 50%;
+        text-align: center;
+        padding: 20px;
+        font-size: larger;   
+    }    
+    .main__corona--aspecto{
+        padding: 20px;
+        text-align: center;
+        width: 50%;
+    }
+}
